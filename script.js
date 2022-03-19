@@ -1,0 +1,2 @@
+document.getElementsByClassName('.display').textContent;
+document.querySelectorAll('.btn.number').forEach(el => el.addEventListener('click', ev => document.querySelector('.display').textContent += el.textContent))
